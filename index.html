@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="body">
+      <nav>
+        <div class="nav-left">
+          <a class="nav-left__anchor" href="/">THIS INTERIOR</a>
+        </div>
+        <div id="nav-right" class="nav-right">
+          <ul class="nav-right__menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Collection</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+        <div id="nav-right-icon" class="menu-button">
+          <span class="material-icons" onclick="showSidebar()"> menu </span>
+        </div>
+      </nav>
+      <section class="content">
+        <div class="text-container">
+          <h1>Modern interior</h1>
+          <p>
+            A full-service residential & commercial interior design and staging
+            company offering professioanl organizing & eco-services
+          </p>
+          <a href="/" class="read-more">Read more </a>
+        </div>
+        <div class="image-container">
+          <img
+            class="main-image"
+            src="./public/images/photo1.png"
+            alt="photo1"
+          />
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-header-image"
+                src="./public/images/photo2.png"
+                alt="photo2"
+              />
+              <div class="card-header-title">
+                <p>Aliza Webber</p>
+                <p>Interior designer</p>
+              </div>
+            </div>
+            <div class="card-content">
+              <h4>Designed in 2020 by Aliza Webber</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="sidebar" class="sidebar">
+      <span class="material-icons icon" onclick="hideSidebar()">close</span>
+      <ul class="menu">
+        <li><a href="/src/index.html">Home</a></li>
+        <li><a href="/">Collection</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </section>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
