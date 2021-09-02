@@ -5,6 +5,7 @@ body {
 }
 
 .body {
+  height: auto;
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
@@ -163,6 +164,13 @@ p:nth-child(2) {
 .menu li {
   margin-bottom: 20px;
   margin-right: 0px;
+}
+
+footer {
+  color: #eeeeee;
+  margin-top: 100px;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .sidebarShowAnimation {
